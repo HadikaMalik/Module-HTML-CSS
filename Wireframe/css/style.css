@@ -1,0 +1,67 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-weight: lighter;
+}
+
+/* .heading{
+    font-size: 20px;
+}
+
+.article_title{
+    font-size: 50px;
+}
+
+.h1{
+    text-shadow: #734e0d 2px 2px 4px;
+} */
+
+.toptitle{
+    text-align: center;
+}
+
+.HERO{
+    margin: 10px 200px;
+}
+
+.hero{
+    display: inline-block;
+    text-align: center;
+}
+
+.hero, .category1, .category2{
+    border: solid 2px #734e0d;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.sub_hero{
+    display:flex;
+}
+
+.category1, .category2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.article_button{
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: #734e0d;
+    border: #734e0d solid;
+}
+
+.article_button:hover{
+    background-color: blanchedalmond;
+}

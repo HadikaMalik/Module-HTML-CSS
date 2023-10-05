@@ -28,7 +28,7 @@ h4{
 }
 
 .HERO{
-    margin: 10px 200px;
+    margin: 10px 100px;
 }
 
 .hero{
@@ -45,6 +45,7 @@ h4{
 
 .sub_hero{
     display:flex;
+    margin: 0px 100px;
 }
 
 .category1, .category2{

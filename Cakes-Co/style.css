@@ -1,1 +1,60 @@
 /*  Add your styling here */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    width: 15rem;
+    height: 15rem;
+}
+
+.navigation-list{
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "ht ht"
+        "at at";
+}
+
+.hero-text{
+    grid-area: ht;
+}
+
+.article{
+    grid-area: at;
+}
+
+.sample-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "ck1 ck2"
+        "ck3 ck4";
+}
+
+.diff-cakes1{
+    grid-area: ck1;
+}
+
+.diff-cakes2{
+    grid-area: ck2;
+}
+
+.diff-cakes3{
+    grid-area: ck3;
+}
+
+.diff-cakes4{
+    grid-area: ck4;
+}

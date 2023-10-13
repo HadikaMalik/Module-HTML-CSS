@@ -106,12 +106,13 @@
     grid-area: ck4;
 }
 
-.diff-cakes1, .diff-cakes2, .diff-cakes3, .diff-cakes4{
-    /* width: 40rem;
+/* .diff-cakes1, .diff-cakes2, .diff-cakes3, .diff-cakes4{
+    width: 40rem;
     height: 75rem;
 } */
 
 .article-img{
+    display: flex;
     justify-content: center;
     align-items: center;
 }

@@ -264,6 +264,10 @@ nav{
         margin-top: 80px;
     }
 
+    .hamburger{
+        display: none;
+    }
+
     .slogan{
         margin-top: 0;
         font-size: 30px;
@@ -293,6 +297,10 @@ nav{
         display: flex;
         flex-direction: row;
         margin-top: 80px;
+    }
+
+      .hamburger{
+        display: none;
     }
 
     .slogan{

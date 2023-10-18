@@ -58,6 +58,7 @@ header{
     padding: 5px 10px;
     font-weight: bold;
     color: var(--darkblue);
+    margin-top: 230px;
 }
 
 .hamburger{
@@ -110,7 +111,7 @@ nav{
 .navigation-list{
     display: flex;
     flex-direction: column;
-    margin-top: -160px;
+    margin-top: -70px;
 }
 
 .navigation-item{ 
@@ -184,23 +185,29 @@ nav{
     text-shadow: 0 0 10px var(--blue);
 }
 
-/* .container{
+.heading{
+    margin: 0;
+}
+
+.hero{
     display: grid;
-    grid-template-columns: repeat(autofit 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: auto;
     justify-content: center;
     align-items: center;
     grid-template-areas: 
         "ht ht"
         "at at";
-} */
+}
 
 .hero-text{
+    grid-area: ht;
     text-align: justify;
-    margin: 10px 20px;
+    margin: 0px 20px;
 }
 
 .article{
+    grid-area: at;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +224,7 @@ nav{
     align-items: center;
     gap: 20px;
     margin: 20px 40px;
-    grid-template-columns: auto auto;
+    grid-template-columns: minmax(140px);
     grid-template-rows: auto;
     grid-template-areas: 
         "ck1 ck2"
@@ -245,4 +252,85 @@ nav{
     height: max-content;
 }
 
+.article-img:hover, .diff-cakes1:hover, .diff-cakes2:hover, .diff-cakes3:hover, .diff-cakes4:hover{
+    opacity: 0.6;
+}
 
+@media (min-width: 540px){
+
+    .navigation-list{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+    }
+
+    .slogan{
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    .heading{
+        margin: 120px 0 0 0;
+    }
+
+    .sample-img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 40px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "ck1 ck2 ck3"
+        "ck4 0 0 ";
+    }
+}
+
+@media (min-width: 900px) {
+    
+    .navigation-list{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+    }
+
+    .slogan{
+        font-size: 35px;
+    }
+
+    .heading{
+        margin: 120px 0 0 0;
+    }
+
+   .hero{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    grid-template-areas: 
+        "0  ht"
+        "at ht"
+        "at ht";
+    }
+
+     .article-img{
+        width: 100%;
+     }
+
+     .sample-img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 40px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "ck1 ck2 ck3 ck4";
+    }
+}

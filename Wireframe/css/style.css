@@ -11,29 +11,39 @@ h4{
     font-weight: lighter;
 }
 
-/* .heading{
-    font-size: 20px;
-}
-
-.article_title{
+.heading{
     font-size: 50px;
 }
 
-.h1{
-    text-shadow: #734e0d 2px 2px 4px;
-} */
+.article_title{
+    font-size: 30px;
+}
 
 .toptitle{
     text-align: center;
 }
 
-.HERO{
-    margin: 10px 100px;
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "h h"
+    "ct1 ct2";
 }
 
 .hero{
     display: inline-block;
     text-align: center;
+    grid-area: h;
+}
+
+.category1{
+    grid-area: ct1;
+}
+
+.category2{
+    grid-area: ct2;
 }
 
 .hero, .category1, .category2{
@@ -41,14 +51,6 @@ h4{
     border-radius: 10px;
     padding: 10px;
     margin: 15px;
-}
-
-.sub_hero{
-    display:flex;
-    margin: 0px 100px;
-}
-
-.category1, .category2{
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -65,4 +67,9 @@ h4{
 
 .article_button:hover{
     background-color: blanchedalmond;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
 }

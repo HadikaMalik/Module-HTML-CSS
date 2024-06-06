@@ -10,7 +10,7 @@ font-family: 'Crimson Text', serif;
     --pink: #c85ea8;
     --blue: #72acd4;
     --darkblue: #442a7d;
-    --lightgrey: #dcd9d4;
+    --lightgrey: #f0ede4;
     --darkgrey:#bcbec3;
 }
 
@@ -49,7 +49,7 @@ header{
 }
 
 .title{
-    margin-left: 2px;
+    margin-left: -50px;
 }
 
 .slogan{
